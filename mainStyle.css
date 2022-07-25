@@ -1,0 +1,19 @@
+body {
+    align: center;
+}
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: 150px 150px;
+    grid-gap: 1em;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
